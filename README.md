@@ -1,4 +1,4 @@
-#TOGGL-STOP
+# TOGGL-STOP
 
 This makes a mac program that stops whatever you are currently doing in toggl.
 
