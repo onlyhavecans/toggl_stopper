@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-from TogglPy.TogglPy import Toggl
 from pathlib import Path
+from TogglPy.TogglPy import Toggl
 
 CONFIG = '~/.togglapikey'
 
@@ -11,5 +11,5 @@ if __name__ == '__main__':
     toggl = Toggl()
     toggl.setAPIKey(api_key)
     currentTimer = toggl.currentRunningTimeEntry()
-    if currentTimer['data'] != None:
+    if currentTimer['data'] is not None:
         toggl.stopTimeEntry(currentTimer['data']['id'])

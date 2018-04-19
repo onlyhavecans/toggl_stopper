@@ -11,6 +11,6 @@ If you are missing the `~/.togglapikey` file then it currently errors silently. 
 1. `make` to create the app
 1. copy `dist/Toggl-Stop.app` wherever you keep your apps.
 
-
 ## Why?
+
 Well I have a few commands and scripts I'd like to hotkey, stopping Toggl is my top one and an app is the easiest thing to call out to. I may also make some simple apps for starting common Toggl things I monitor.
